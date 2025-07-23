@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="Content-Language" content="en" />
+  <meta name="theme-color" content="#ff9a00" />
+
+  <!-- Primary Meta Tags -->
+  <title>Himanshu Maurya | Full Stack MERN Developer</title>
+  <meta name="title" content="Himanshu Maurya | Full Stack MERN Developer" />
+  <meta name="description"
+    content="Official portfolio of Himanshu Maurya — a Full Stack MERN Developer building scalable web apps and contributing to open source and system design projects." />
+  <meta name="keywords"
+    content="Himanshu Maurya, Full Stack Developer, MERN Developer, React Developer, Node.js Developer, JavaScript Developer, Portfolio Website, Developer Portfolio 2025, MongoDB, Express, React, Node, Firebase Developer, Web Developer India, Open Source Contributor, System Design" />
+  <meta name="author" content="Himanshu Maurya" />
+  <meta name="robots" content="index, follow" />
+  <meta name="google-site-verification" content="your-verification-code" />
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://himanshumaurya-0007.web.app/" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Himanshu Maurya Portfolio" />
+  <meta property="og:url" content="https://himanshumaurya-0007.web.app/" />
+  <meta property="og:title" content="Himanshu Maurya | Full Stack MERN Developer" />
+  <meta property="og:description"
+    content="Explore the projects, skills, and professional work of Himanshu Maurya, a Full Stack MERN Developer and open-source contributor." />
+  <meta property="og:image" content="https://himanshumaurya-0007.web.app/assets/profile.jpeg" />
+
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@himanshu_m0007" />
+  <meta name="twitter:creator" content="@himanshu_m0007" />
+  <meta name="twitter:title" content="Himanshu Maurya | Full Stack MERN Developer" />
+  <meta name="twitter:description"
+    content="Explore the portfolio of Himanshu Maurya, Full Stack MERN Developer passionate about scalable web apps and system design." />
+  <meta name="twitter:image" content="https://himanshumaurya-0007.web.app/assets/profile.jpeg" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/favicon/android-chrome-512x512-square-white-background.png" sizes="512x512">
+  <link rel="apple-touch-icon" href="/favicon/apple-touch-icon-square-white-background.png">
+  <link rel="manifest" href="/favicon/site.webmanifest">
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Himanshu Maurya",
+    "url": "https://himanshumaurya-0007.web.app/",
+    "image": "https://himanshumaurya-0007.web.app/assets/profile.jpeg",
+    "sameAs": [
+      "https://github.com/himanshumaurya0007",
+      "https://linkedin.com/in/himanshumaurya0007",
+      "https://instagram.com/himanshumaurya0007",
+      "https://x.com/himanshu_m0007"
+    ],
+    "jobTitle": "Full Stack MERN Developer",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Freelance / Open Source"
+    },
+    "alumniOf": {
+      "@type": "CollegeOrUniversity",
+      "name": "A. P. Shah Institute of Technology (APSIT), Thane",
+      "sameAs": "https://www.apsit.edu.in"
+    },
+    "knowsAbout": ["MERN Stack", "System Design", "Open Source", "REST APIs", "Machine Learning"],
+    "description": "Full Stack MERN Developer passionate about scalable apps, system design, and open-source.",
+    "email": "mailto:himanshumaurya7781@gmail.com"
+  }
+  </script>
+</head>
+
+<body>
+  <!-- Noscript fallback -->
+  <noscript>
+    <strong>We're sorry but this website requires JavaScript to function properly. Please enable it to continue.</strong>
+  </noscript>
+
+  <!-- Preloader -->
+  <div id="preloader" style="
+      position: fixed;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: #ffffff;
+      color: #292929;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      z-index: 9999;">
+    <div style="
+        width: 48px;
+        height: 48px;
+        border: 4px solid #ff9a00;
+        border-top-color: transparent;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+        margin-bottom: 1rem;">
+    </div>
+    <p style="font-size: 1rem;">Loading, please wait…</p>
+  </div>
+
+  <!-- Root App Mount -->
+  <div id="root"></div>
+
+  <!-- Main React Bundle -->
+  <script type="module" src="/src/main.jsx"></script>
+
+  <!-- Remove preloader on load -->
+  <script>
+    window.addEventListener('load', () => {
+      const loader = document.getElementById('preloader');
+      if (loader) loader.remove();
+    });
+  </script>
+
+  <!-- Spinner Animation -->
+  <style>
+    @keyframes spin {
+      to {
+        transform: rotate(360deg);
+      }
+    }
+  </style>
+</body>
+
+</html>
